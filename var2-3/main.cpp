@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cassert>
 
 bool checkSame( const int *A, int a, int curnum ) {
     for ( int i = 0; i < curnum ; ++i ) {
@@ -47,12 +48,10 @@ int main () {
     int n = 0;
     int m = 0;
 
-    do {
-        std::cin >> n >> m;
-        if ( n < m ) {
-            std::cout << "repeat\n";
-        }
-    } while ( n < m );
+
+    std::cin >> n >> m;
+    assert( n > m );
+    
 
     int *A = new int[n];
     inpArray ( A, n );
