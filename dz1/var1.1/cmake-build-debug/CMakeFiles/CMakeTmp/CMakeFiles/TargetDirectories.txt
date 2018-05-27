@@ -1,3 +1,0 @@
-/Users/rodion/workspace/algorithm/dz1/var1.1/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
-/Users/rodion/workspace/algorithm/dz1/var1.1/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-/Users/rodion/workspace/algorithm/dz1/var1.1/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_82160.dir

@@ -1,0 +1,3 @@
+/Users/rodion/workspace/algorithm/module2/dz1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rodion/workspace/algorithm/module2/dz1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rodion/workspace/algorithm/module2/dz1/cmake-build-debug/CMakeFiles/dz1.dir

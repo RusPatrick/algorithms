@@ -1,4 +1,4 @@
-# Install script for directory: /Users/rodion/workspace/algorithm/seminar2
+# Install script for directory: /Users/rodion/workspace/algorithm/dz1/var1.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/rodion/workspace/algorithm/seminar2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/rodion/workspace/algorithm/dz1/var1.1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

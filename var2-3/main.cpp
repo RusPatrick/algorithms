@@ -30,17 +30,23 @@ void inpArray ( int *A, int n ) {
     }
 }
 
+
 void checkArrays ( const int *A, const int n, const int *B, const int m ) {
-    int curval = 0;
-    for ( int i = 0; i < m; ++i ) {
-        int j = curval;
-        while ( B[i] != A[j] && j < n) {
-            j++;
+    int left = 0;
+    int right;
+
+    for (int i = 0; i < m; ++i) {
+        right = n - 1;
+        while ( right - left > 0) {
+            if ( B[i] > A[ ( right + left ) / 2] ) {
+                left = ( right + left ) / 2 + 1;
+            } else {
+                right = ( right + left ) / 2;
+            }
         }
-        if ( B[i] == A[j] ) {
+
+        if (A[right] == B[i])
             std::cout << B[i] << ' ';
-            curval = j;
-        }
     }
 }
 
@@ -54,11 +60,17 @@ int main () {
     
 
     int *A = new int[n];
-    inpArray ( A, n );
+    for (int i = 0; i < n; ++i) {
+        std::cin >> A[i];
+    }
+    //inpArray ( A, n );
 
 
     int *B = new int [m];
-    inpArray ( B, m );
+    for (int i = 0; i < m; ++i) {
+        std::cin >> B[i];
+    }
+    //inpArray ( B, m );
 
     checkArrays ( A, n, B, m);
 
