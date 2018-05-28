@@ -12,7 +12,7 @@ using std::vector;
 
 class ListGraph : public IGraph {
 public:
-    ListGraph ( int count );
+    ListGraph ( unsigned int count );
     ListGraph ( const IGraph&  graph );
 
     // Добавление ребра от from к to.
@@ -23,7 +23,10 @@ public:
     virtual void GetNextVertices ( int vertex, std::vector<int>& vertices ) const override ;
     virtual void GetPrevVertices ( int vertex, std::vector<int>& vertices ) const override ;
 private:
-    vector<vector<int>> adjacencyLists;
+    unsigned int verticesCount;
+
+    vector<vector<int>> in;
+    vector<vector<int>> out;
 };
 
 #endif //DZ1_LISTGRAPH_H

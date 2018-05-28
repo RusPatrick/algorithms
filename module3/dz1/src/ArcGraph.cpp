@@ -2,12 +2,7 @@
 // Created by Родион Фаррахов on 27.05.2018.
 //
 
-#include "ArcGraph.h"
-
-ArcGraph::ArcGraph(unsigned int count) {
-    edges.resize(count);
-    verticesCount = count;
-}
+#include "../include/ArcGraph.h"
 
 ArcGraph::ArcGraph(const IGraph& graph) {
     verticesCount = graph.VerticesCount();

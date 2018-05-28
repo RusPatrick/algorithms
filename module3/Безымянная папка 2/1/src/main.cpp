@@ -1,8 +1,8 @@
 #include <iostream>
-#include "ListGraph.h"
-#include "MatrixGraph.h"
-#include "SetGraph.h"
-#include "ArcGraph.h"
+#include "../include/CListGraph.h"
+#include "../include/CMatrixGraph.h"
+#include "../include/CSetGraph.h"
+#include "../include/CArcGraph.h"
 
 
 using std::cin;
@@ -13,7 +13,7 @@ int main()
 {
     unsigned int n;
     cin >> n;
-    ListGraph graph(n);
+    CListGraph graph(n);
 
     while (true) {
         char c;
@@ -26,10 +26,10 @@ int main()
             break;
     }
 
-    ListGraph listGraph(graph);
-    MatrixGraph matrixGraph(graph);
-    SetGraph setGraph(graph);
-    ArcGraph arcGraph(graph);
+    CListGraph listGraph(&graph);
+    CMatrixGraph matrixGraph(&graph);
+    CSetGraph setGraph(&graph);
+    CArcGraph arcGraph(&graph);
 
     bool finish = false;
     while (!finish) {

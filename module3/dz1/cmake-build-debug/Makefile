@@ -123,140 +123,140 @@ dz1/fast:
 	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/build
 .PHONY : dz1/fast
 
-ArcGraph.o: ArcGraph.cpp.o
+src/ArcGraph.o: src/ArcGraph.cpp.o
 
-.PHONY : ArcGraph.o
-
-# target to build an object file
-ArcGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ArcGraph.cpp.o
-.PHONY : ArcGraph.cpp.o
-
-ArcGraph.i: ArcGraph.cpp.i
-
-.PHONY : ArcGraph.i
-
-# target to preprocess a source file
-ArcGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ArcGraph.cpp.i
-.PHONY : ArcGraph.cpp.i
-
-ArcGraph.s: ArcGraph.cpp.s
-
-.PHONY : ArcGraph.s
-
-# target to generate assembly for a file
-ArcGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ArcGraph.cpp.s
-.PHONY : ArcGraph.cpp.s
-
-ListGraph.o: ListGraph.cpp.o
-
-.PHONY : ListGraph.o
+.PHONY : src/ArcGraph.o
 
 # target to build an object file
-ListGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ListGraph.cpp.o
-.PHONY : ListGraph.cpp.o
+src/ArcGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ArcGraph.cpp.o
+.PHONY : src/ArcGraph.cpp.o
 
-ListGraph.i: ListGraph.cpp.i
+src/ArcGraph.i: src/ArcGraph.cpp.i
 
-.PHONY : ListGraph.i
+.PHONY : src/ArcGraph.i
 
 # target to preprocess a source file
-ListGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ListGraph.cpp.i
-.PHONY : ListGraph.cpp.i
+src/ArcGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ArcGraph.cpp.i
+.PHONY : src/ArcGraph.cpp.i
 
-ListGraph.s: ListGraph.cpp.s
+src/ArcGraph.s: src/ArcGraph.cpp.s
 
-.PHONY : ListGraph.s
+.PHONY : src/ArcGraph.s
 
 # target to generate assembly for a file
-ListGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ListGraph.cpp.s
-.PHONY : ListGraph.cpp.s
+src/ArcGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ArcGraph.cpp.s
+.PHONY : src/ArcGraph.cpp.s
 
-MatrixGraph.o: MatrixGraph.cpp.o
+src/ListGraph.o: src/ListGraph.cpp.o
 
-.PHONY : MatrixGraph.o
+.PHONY : src/ListGraph.o
 
 # target to build an object file
-MatrixGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/MatrixGraph.cpp.o
-.PHONY : MatrixGraph.cpp.o
+src/ListGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ListGraph.cpp.o
+.PHONY : src/ListGraph.cpp.o
 
-MatrixGraph.i: MatrixGraph.cpp.i
+src/ListGraph.i: src/ListGraph.cpp.i
 
-.PHONY : MatrixGraph.i
+.PHONY : src/ListGraph.i
 
 # target to preprocess a source file
-MatrixGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/MatrixGraph.cpp.i
-.PHONY : MatrixGraph.cpp.i
+src/ListGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ListGraph.cpp.i
+.PHONY : src/ListGraph.cpp.i
 
-MatrixGraph.s: MatrixGraph.cpp.s
+src/ListGraph.s: src/ListGraph.cpp.s
 
-.PHONY : MatrixGraph.s
+.PHONY : src/ListGraph.s
 
 # target to generate assembly for a file
-MatrixGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/MatrixGraph.cpp.s
-.PHONY : MatrixGraph.cpp.s
+src/ListGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ListGraph.cpp.s
+.PHONY : src/ListGraph.cpp.s
 
-SetGraph.o: SetGraph.cpp.o
+src/MatrixGraph.o: src/MatrixGraph.cpp.o
 
-.PHONY : SetGraph.o
+.PHONY : src/MatrixGraph.o
 
 # target to build an object file
-SetGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/SetGraph.cpp.o
-.PHONY : SetGraph.cpp.o
+src/MatrixGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o
+.PHONY : src/MatrixGraph.cpp.o
 
-SetGraph.i: SetGraph.cpp.i
+src/MatrixGraph.i: src/MatrixGraph.cpp.i
 
-.PHONY : SetGraph.i
+.PHONY : src/MatrixGraph.i
 
 # target to preprocess a source file
-SetGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/SetGraph.cpp.i
-.PHONY : SetGraph.cpp.i
+src/MatrixGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/MatrixGraph.cpp.i
+.PHONY : src/MatrixGraph.cpp.i
 
-SetGraph.s: SetGraph.cpp.s
+src/MatrixGraph.s: src/MatrixGraph.cpp.s
 
-.PHONY : SetGraph.s
+.PHONY : src/MatrixGraph.s
 
 # target to generate assembly for a file
-SetGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/SetGraph.cpp.s
-.PHONY : SetGraph.cpp.s
+src/MatrixGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/MatrixGraph.cpp.s
+.PHONY : src/MatrixGraph.cpp.s
 
-main.o: main.cpp.o
+src/SetGraph.o: src/SetGraph.cpp.o
 
-.PHONY : main.o
+.PHONY : src/SetGraph.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/SetGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/SetGraph.cpp.o
+.PHONY : src/SetGraph.cpp.o
 
-main.i: main.cpp.i
+src/SetGraph.i: src/SetGraph.cpp.i
 
-.PHONY : main.i
+.PHONY : src/SetGraph.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/SetGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/SetGraph.cpp.i
+.PHONY : src/SetGraph.cpp.i
 
-main.s: main.cpp.s
+src/SetGraph.s: src/SetGraph.cpp.s
 
-.PHONY : main.s
+.PHONY : src/SetGraph.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/SetGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/SetGraph.cpp.s
+.PHONY : src/SetGraph.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -267,21 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dz1"
-	@echo "... ArcGraph.o"
-	@echo "... ArcGraph.i"
-	@echo "... ArcGraph.s"
-	@echo "... ListGraph.o"
-	@echo "... ListGraph.i"
-	@echo "... ListGraph.s"
-	@echo "... MatrixGraph.o"
-	@echo "... MatrixGraph.i"
-	@echo "... MatrixGraph.s"
-	@echo "... SetGraph.o"
-	@echo "... SetGraph.i"
-	@echo "... SetGraph.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/ArcGraph.o"
+	@echo "... src/ArcGraph.i"
+	@echo "... src/ArcGraph.s"
+	@echo "... src/ListGraph.o"
+	@echo "... src/ListGraph.i"
+	@echo "... src/ListGraph.s"
+	@echo "... src/MatrixGraph.o"
+	@echo "... src/MatrixGraph.i"
+	@echo "... src/MatrixGraph.s"
+	@echo "... src/SetGraph.o"
+	@echo "... src/SetGraph.i"
+	@echo "... src/SetGraph.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

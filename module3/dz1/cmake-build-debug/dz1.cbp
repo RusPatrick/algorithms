@@ -82,34 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.cpp">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/include/ArcGraph.h">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.h">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/include/IGraph.h">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/IGraph.h">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/include/ListGraph.h">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.cpp">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/include/MatrixGraph.h">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.h">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/include/SetGraph.h">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.cpp">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/src/ArcGraph.cpp">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.h">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/src/ListGraph.cpp">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.cpp">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/src/MatrixGraph.cpp">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.h">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/src/SetGraph.cpp">
 			<Option target="dz1"/>
 		</Unit>
-		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/main.cpp">
+		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/src/main.cpp">
 			<Option target="dz1"/>
 		</Unit>
 		<Unit filename="/Users/rodion/workspace/algorithm/module3/dz1/CMakeLists.txt">

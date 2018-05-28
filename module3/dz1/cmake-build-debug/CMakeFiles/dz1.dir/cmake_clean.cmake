@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dz1.dir/main.cpp.o"
-  "CMakeFiles/dz1.dir/ListGraph.cpp.o"
-  "CMakeFiles/dz1.dir/MatrixGraph.cpp.o"
-  "CMakeFiles/dz1.dir/SetGraph.cpp.o"
-  "CMakeFiles/dz1.dir/ArcGraph.cpp.o"
+  "CMakeFiles/dz1.dir/src/main.cpp.o"
+  "CMakeFiles/dz1.dir/src/ListGraph.cpp.o"
+  "CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o"
+  "CMakeFiles/dz1.dir/src/SetGraph.cpp.o"
+  "CMakeFiles/dz1.dir/src/ArcGraph.cpp.o"
   "dz1.pdb"
   "dz1"
 )

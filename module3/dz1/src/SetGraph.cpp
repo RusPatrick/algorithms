@@ -2,7 +2,7 @@
 // Created by Родион Фаррахов on 27.05.2018.
 //
 
-#include "SetGraph.h"
+#include "../include/SetGraph.h"
 
 SetGraph::SetGraph ( unsigned int count ) {
     verticesCount = count;

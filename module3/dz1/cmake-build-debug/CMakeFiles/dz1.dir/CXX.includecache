@@ -6,57 +6,57 @@
 
 #IncludeRegexTransform: 
 
-/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.cpp
-ArcGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.h
-
-/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/ArcGraph.h
 IGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/IGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/IGraph.h
 
-/Users/rodion/workspace/algorithm/module3/dz1/IGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/IGraph.h
 vector
 -
 
-/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.cpp
-ListGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.h
-
-/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/ListGraph.h
 vector
 -
 IGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/IGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/IGraph.h
 
-/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.cpp
-MatrixGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.h
-
-/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/MatrixGraph.h
 vector
 -
 IGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/IGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/IGraph.h
 
-/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.cpp
-SetGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.h
-
-/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/SetGraph.h
 IGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/IGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/IGraph.h
 unordered_set
 -
 
-/Users/rodion/workspace/algorithm/module3/dz1/main.cpp
+/Users/rodion/workspace/algorithm/module3/dz1/src/ArcGraph.cpp
+../include/ArcGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/ArcGraph.h
+
+/Users/rodion/workspace/algorithm/module3/dz1/src/ListGraph.cpp
+../include/ListGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/ListGraph.h
+
+/Users/rodion/workspace/algorithm/module3/dz1/src/MatrixGraph.cpp
+../include/MatrixGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/MatrixGraph.h
+
+/Users/rodion/workspace/algorithm/module3/dz1/src/SetGraph.cpp
+../include/SetGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/SetGraph.h
+
+/Users/rodion/workspace/algorithm/module3/dz1/src/main.cpp
 iostream
 -
-ListGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.h
-MatrixGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.h
-SetGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.h
-ArcGraph.h
-/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.h
+../include/ListGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/ListGraph.h
+../include/MatrixGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/MatrixGraph.h
+../include/SetGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/SetGraph.h
+../include/ArcGraph.h
+/Users/rodion/workspace/algorithm/module3/dz1/include/ArcGraph.h
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/ArcGraph.cpp.o"
-  "/Users/rodion/workspace/algorithm/module3/dz1/ListGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/ListGraph.cpp.o"
-  "/Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/MatrixGraph.cpp.o"
-  "/Users/rodion/workspace/algorithm/module3/dz1/SetGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/SetGraph.cpp.o"
-  "/Users/rodion/workspace/algorithm/module3/dz1/main.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/main.cpp.o"
+  "/Users/rodion/workspace/algorithm/module3/dz1/src/ArcGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/src/ArcGraph.cpp.o"
+  "/Users/rodion/workspace/algorithm/module3/dz1/src/ListGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/src/ListGraph.cpp.o"
+  "/Users/rodion/workspace/algorithm/module3/dz1/src/MatrixGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o"
+  "/Users/rodion/workspace/algorithm/module3/dz1/src/SetGraph.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/src/SetGraph.cpp.o"
+  "/Users/rodion/workspace/algorithm/module3/dz1/src/main.cpp" "/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles/dz1.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -8,17 +8,14 @@
 #include "IGraph.h"
 
 
-class Edge {
-public:
-    Edge(int from, int to);
+struct Edge {
+    Edge (int from, int to);
 
     int from;
     int to;
 };
 
-
-Edge::Edge(int from, int to)
-{
+Edge::Edge(int from, int to) {
     this->from = from;
     this->to = to;
 }

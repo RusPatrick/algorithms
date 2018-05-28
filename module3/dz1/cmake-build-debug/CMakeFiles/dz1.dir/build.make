@@ -57,142 +57,142 @@ include CMakeFiles/dz1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dz1.dir/flags.make
 
-CMakeFiles/dz1.dir/main.cpp.o: CMakeFiles/dz1.dir/flags.make
-CMakeFiles/dz1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dz1.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/main.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/main.cpp
+CMakeFiles/dz1.dir/src/main.cpp.o: CMakeFiles/dz1.dir/flags.make
+CMakeFiles/dz1.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dz1.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/src/main.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/src/main.cpp
 
-CMakeFiles/dz1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/main.cpp > CMakeFiles/dz1.dir/main.cpp.i
+CMakeFiles/dz1.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/src/main.cpp > CMakeFiles/dz1.dir/src/main.cpp.i
 
-CMakeFiles/dz1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/main.cpp -o CMakeFiles/dz1.dir/main.cpp.s
+CMakeFiles/dz1.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/src/main.cpp -o CMakeFiles/dz1.dir/src/main.cpp.s
 
-CMakeFiles/dz1.dir/main.cpp.o.requires:
+CMakeFiles/dz1.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/dz1.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/dz1.dir/src/main.cpp.o.requires
 
-CMakeFiles/dz1.dir/main.cpp.o.provides: CMakeFiles/dz1.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/dz1.dir/main.cpp.o.provides
+CMakeFiles/dz1.dir/src/main.cpp.o.provides: CMakeFiles/dz1.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/dz1.dir/src/main.cpp.o.provides
 
-CMakeFiles/dz1.dir/main.cpp.o.provides.build: CMakeFiles/dz1.dir/main.cpp.o
-
-
-CMakeFiles/dz1.dir/ListGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
-CMakeFiles/dz1.dir/ListGraph.cpp.o: ../ListGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dz1.dir/ListGraph.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/ListGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/ListGraph.cpp
-
-CMakeFiles/dz1.dir/ListGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/ListGraph.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/ListGraph.cpp > CMakeFiles/dz1.dir/ListGraph.cpp.i
-
-CMakeFiles/dz1.dir/ListGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/ListGraph.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/ListGraph.cpp -o CMakeFiles/dz1.dir/ListGraph.cpp.s
-
-CMakeFiles/dz1.dir/ListGraph.cpp.o.requires:
-
-.PHONY : CMakeFiles/dz1.dir/ListGraph.cpp.o.requires
-
-CMakeFiles/dz1.dir/ListGraph.cpp.o.provides: CMakeFiles/dz1.dir/ListGraph.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ListGraph.cpp.o.provides.build
-.PHONY : CMakeFiles/dz1.dir/ListGraph.cpp.o.provides
-
-CMakeFiles/dz1.dir/ListGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/ListGraph.cpp.o
+CMakeFiles/dz1.dir/src/main.cpp.o.provides.build: CMakeFiles/dz1.dir/src/main.cpp.o
 
 
-CMakeFiles/dz1.dir/MatrixGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
-CMakeFiles/dz1.dir/MatrixGraph.cpp.o: ../MatrixGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dz1.dir/MatrixGraph.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/MatrixGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.cpp
+CMakeFiles/dz1.dir/src/ListGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
+CMakeFiles/dz1.dir/src/ListGraph.cpp.o: ../src/ListGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dz1.dir/src/ListGraph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/src/ListGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/src/ListGraph.cpp
 
-CMakeFiles/dz1.dir/MatrixGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/MatrixGraph.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.cpp > CMakeFiles/dz1.dir/MatrixGraph.cpp.i
+CMakeFiles/dz1.dir/src/ListGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/src/ListGraph.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/src/ListGraph.cpp > CMakeFiles/dz1.dir/src/ListGraph.cpp.i
 
-CMakeFiles/dz1.dir/MatrixGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/MatrixGraph.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/MatrixGraph.cpp -o CMakeFiles/dz1.dir/MatrixGraph.cpp.s
+CMakeFiles/dz1.dir/src/ListGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/src/ListGraph.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/src/ListGraph.cpp -o CMakeFiles/dz1.dir/src/ListGraph.cpp.s
 
-CMakeFiles/dz1.dir/MatrixGraph.cpp.o.requires:
+CMakeFiles/dz1.dir/src/ListGraph.cpp.o.requires:
 
-.PHONY : CMakeFiles/dz1.dir/MatrixGraph.cpp.o.requires
+.PHONY : CMakeFiles/dz1.dir/src/ListGraph.cpp.o.requires
 
-CMakeFiles/dz1.dir/MatrixGraph.cpp.o.provides: CMakeFiles/dz1.dir/MatrixGraph.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/MatrixGraph.cpp.o.provides.build
-.PHONY : CMakeFiles/dz1.dir/MatrixGraph.cpp.o.provides
+CMakeFiles/dz1.dir/src/ListGraph.cpp.o.provides: CMakeFiles/dz1.dir/src/ListGraph.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ListGraph.cpp.o.provides.build
+.PHONY : CMakeFiles/dz1.dir/src/ListGraph.cpp.o.provides
 
-CMakeFiles/dz1.dir/MatrixGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/MatrixGraph.cpp.o
-
-
-CMakeFiles/dz1.dir/SetGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
-CMakeFiles/dz1.dir/SetGraph.cpp.o: ../SetGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dz1.dir/SetGraph.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/SetGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/SetGraph.cpp
-
-CMakeFiles/dz1.dir/SetGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/SetGraph.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/SetGraph.cpp > CMakeFiles/dz1.dir/SetGraph.cpp.i
-
-CMakeFiles/dz1.dir/SetGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/SetGraph.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/SetGraph.cpp -o CMakeFiles/dz1.dir/SetGraph.cpp.s
-
-CMakeFiles/dz1.dir/SetGraph.cpp.o.requires:
-
-.PHONY : CMakeFiles/dz1.dir/SetGraph.cpp.o.requires
-
-CMakeFiles/dz1.dir/SetGraph.cpp.o.provides: CMakeFiles/dz1.dir/SetGraph.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/SetGraph.cpp.o.provides.build
-.PHONY : CMakeFiles/dz1.dir/SetGraph.cpp.o.provides
-
-CMakeFiles/dz1.dir/SetGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/SetGraph.cpp.o
+CMakeFiles/dz1.dir/src/ListGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/src/ListGraph.cpp.o
 
 
-CMakeFiles/dz1.dir/ArcGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
-CMakeFiles/dz1.dir/ArcGraph.cpp.o: ../ArcGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dz1.dir/ArcGraph.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/ArcGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.cpp
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o: ../src/MatrixGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/src/MatrixGraph.cpp
 
-CMakeFiles/dz1.dir/ArcGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/ArcGraph.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.cpp > CMakeFiles/dz1.dir/ArcGraph.cpp.i
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/src/MatrixGraph.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/src/MatrixGraph.cpp > CMakeFiles/dz1.dir/src/MatrixGraph.cpp.i
 
-CMakeFiles/dz1.dir/ArcGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/ArcGraph.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/ArcGraph.cpp -o CMakeFiles/dz1.dir/ArcGraph.cpp.s
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/src/MatrixGraph.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/src/MatrixGraph.cpp -o CMakeFiles/dz1.dir/src/MatrixGraph.cpp.s
 
-CMakeFiles/dz1.dir/ArcGraph.cpp.o.requires:
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.requires:
 
-.PHONY : CMakeFiles/dz1.dir/ArcGraph.cpp.o.requires
+.PHONY : CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.requires
 
-CMakeFiles/dz1.dir/ArcGraph.cpp.o.provides: CMakeFiles/dz1.dir/ArcGraph.cpp.o.requires
-	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/ArcGraph.cpp.o.provides.build
-.PHONY : CMakeFiles/dz1.dir/ArcGraph.cpp.o.provides
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.provides: CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.provides.build
+.PHONY : CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.provides
 
-CMakeFiles/dz1.dir/ArcGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/ArcGraph.cpp.o
+CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o
+
+
+CMakeFiles/dz1.dir/src/SetGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
+CMakeFiles/dz1.dir/src/SetGraph.cpp.o: ../src/SetGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dz1.dir/src/SetGraph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/src/SetGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/src/SetGraph.cpp
+
+CMakeFiles/dz1.dir/src/SetGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/src/SetGraph.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/src/SetGraph.cpp > CMakeFiles/dz1.dir/src/SetGraph.cpp.i
+
+CMakeFiles/dz1.dir/src/SetGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/src/SetGraph.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/src/SetGraph.cpp -o CMakeFiles/dz1.dir/src/SetGraph.cpp.s
+
+CMakeFiles/dz1.dir/src/SetGraph.cpp.o.requires:
+
+.PHONY : CMakeFiles/dz1.dir/src/SetGraph.cpp.o.requires
+
+CMakeFiles/dz1.dir/src/SetGraph.cpp.o.provides: CMakeFiles/dz1.dir/src/SetGraph.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/SetGraph.cpp.o.provides.build
+.PHONY : CMakeFiles/dz1.dir/src/SetGraph.cpp.o.provides
+
+CMakeFiles/dz1.dir/src/SetGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/src/SetGraph.cpp.o
+
+
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.o: CMakeFiles/dz1.dir/flags.make
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.o: ../src/ArcGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dz1.dir/src/ArcGraph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dz1.dir/src/ArcGraph.cpp.o -c /Users/rodion/workspace/algorithm/module3/dz1/src/ArcGraph.cpp
+
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dz1.dir/src/ArcGraph.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rodion/workspace/algorithm/module3/dz1/src/ArcGraph.cpp > CMakeFiles/dz1.dir/src/ArcGraph.cpp.i
+
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dz1.dir/src/ArcGraph.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rodion/workspace/algorithm/module3/dz1/src/ArcGraph.cpp -o CMakeFiles/dz1.dir/src/ArcGraph.cpp.s
+
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.requires:
+
+.PHONY : CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.requires
+
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.provides: CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dz1.dir/build.make CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.provides.build
+.PHONY : CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.provides
+
+CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.provides.build: CMakeFiles/dz1.dir/src/ArcGraph.cpp.o
 
 
 # Object files for target dz1
 dz1_OBJECTS = \
-"CMakeFiles/dz1.dir/main.cpp.o" \
-"CMakeFiles/dz1.dir/ListGraph.cpp.o" \
-"CMakeFiles/dz1.dir/MatrixGraph.cpp.o" \
-"CMakeFiles/dz1.dir/SetGraph.cpp.o" \
-"CMakeFiles/dz1.dir/ArcGraph.cpp.o"
+"CMakeFiles/dz1.dir/src/main.cpp.o" \
+"CMakeFiles/dz1.dir/src/ListGraph.cpp.o" \
+"CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o" \
+"CMakeFiles/dz1.dir/src/SetGraph.cpp.o" \
+"CMakeFiles/dz1.dir/src/ArcGraph.cpp.o"
 
 # External object files for target dz1
 dz1_EXTERNAL_OBJECTS =
 
-dz1: CMakeFiles/dz1.dir/main.cpp.o
-dz1: CMakeFiles/dz1.dir/ListGraph.cpp.o
-dz1: CMakeFiles/dz1.dir/MatrixGraph.cpp.o
-dz1: CMakeFiles/dz1.dir/SetGraph.cpp.o
-dz1: CMakeFiles/dz1.dir/ArcGraph.cpp.o
+dz1: CMakeFiles/dz1.dir/src/main.cpp.o
+dz1: CMakeFiles/dz1.dir/src/ListGraph.cpp.o
+dz1: CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o
+dz1: CMakeFiles/dz1.dir/src/SetGraph.cpp.o
+dz1: CMakeFiles/dz1.dir/src/ArcGraph.cpp.o
 dz1: CMakeFiles/dz1.dir/build.make
 dz1: CMakeFiles/dz1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rodion/workspace/algorithm/module3/dz1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable dz1"
@@ -203,11 +203,11 @@ CMakeFiles/dz1.dir/build: dz1
 
 .PHONY : CMakeFiles/dz1.dir/build
 
-CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/main.cpp.o.requires
-CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/ListGraph.cpp.o.requires
-CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/MatrixGraph.cpp.o.requires
-CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/SetGraph.cpp.o.requires
-CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/ArcGraph.cpp.o.requires
+CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/src/main.cpp.o.requires
+CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/src/ListGraph.cpp.o.requires
+CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/src/MatrixGraph.cpp.o.requires
+CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/src/SetGraph.cpp.o.requires
+CMakeFiles/dz1.dir/requires: CMakeFiles/dz1.dir/src/ArcGraph.cpp.o.requires
 
 .PHONY : CMakeFiles/dz1.dir/requires
 

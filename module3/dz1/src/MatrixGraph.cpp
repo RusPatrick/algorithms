@@ -2,7 +2,7 @@
 // Created by Родион Фаррахов on 27.05.2018.
 //
 
-#include "MatrixGraph.h"
+#include "../include/MatrixGraph.h"
 
 MatrixGraph::MatrixGraph ( unsigned int count ) {
     edges.resize(count);

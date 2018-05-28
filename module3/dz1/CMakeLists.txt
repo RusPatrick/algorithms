@@ -3,4 +3,4 @@ project(dz1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(dz1 main.cpp ListGraph.cpp IGraph.h ListGraph.h MatrixGraph.h MatrixGraph.cpp SetGraph.cpp SetGraph.h ArcGraph.cpp ArcGraph.h)
+add_executable(dz1 src/main.cpp include/IGraph.h src/ListGraph.cpp include/ListGraph.h include/MatrixGraph.h src/MatrixGraph.cpp src/SetGraph.cpp include/SetGraph.h src/ArcGraph.cpp include/ArcGraph.h)
